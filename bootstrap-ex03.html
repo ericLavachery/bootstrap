@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Bootstrap ex3</title>
+</head>
+
+<body style="font-family:arial;">
+    <img src="https://raw.githubusercontent.com/becodeorg/Johnson2/master/03-Bootstrap/bootstrap-ex03.png" alt="">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center">
+            12 colonnes
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2" style="border-style: solid; border-radius: 6px;">
+            bloc 1
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2 col-md-push-4" style="border-style: solid; border-radius: 6px;">
+            <!-- push de 4 (sur 12) -->
+            bloc 2
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2 col-md-pull-4" style="border-style: solid; border-radius: 6px;">
+            <!-- pull de 4 (sur 12) -->
+            bloc 3
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+
+</body>
+</html>

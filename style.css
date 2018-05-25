@@ -1,0 +1,7 @@
+
+[class*='col-']{
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    text-align: center;
+}
