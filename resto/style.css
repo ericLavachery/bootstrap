@@ -4,7 +4,7 @@ box-sizing: border-box;
 
 .jumbotron{
     text-align: center;
-    background-image: url("img/icebg.jpg");
+    background-image: url("img/ice.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* text-shadow: 0px 0px 3px white; */
@@ -30,7 +30,7 @@ img{
     background-color: white;
 }
 
-.navbar-nav li a:hover, .navbar-nav > .active > a{
+.navbar-nav > .active > a{
   color: black !important;
   background-color:#EAE5E2 !important;
   background-image: none !important;
@@ -48,8 +48,29 @@ img{
 	padding: 10px 40px 60px;
 	margin: 10px 0px 60px;
 	border: 1px solid GREY;
+    background-image: url("img/abba.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.menu{
-    padding-bottom: 8px;
+.form-area h3{
+    color: #FFFFFF;
+    mix-blend-mode: difference;
+}
+
+.form-area #characterLeft{
+    color: #FFFFFF;
+    mix-blend-mode: difference;
+}
+
+hr{
+    color: grey;
+}
+
+.derou:hover{
+    background-color: white !important;
+}
+
+.trucodsu{
+    height: 80px;
 }

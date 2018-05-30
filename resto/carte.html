@@ -11,10 +11,10 @@
      <script type="text/javascript">
          $(document).ready(function(){
              // fixe la navbar si écran non mobile
-             // var screenxs = 768;
-             // if (window.innerWidth >= screenxs) {
-             //     $(".navbar").addClass("navbar-fixed-top");
-             // }
+             var screenxs = 768;
+             if (window.innerWidth >= screenxs) {
+                 $(".navbar").addClass("navbar-fixed-top");
+             }
          });
     </script>
 </head>
@@ -37,82 +37,82 @@
 
 <div class="container">
 
+    <div class="trucodsu"></div>
+
     <div class="row">
-        <div class="col-md-7">
-            <div class="row">
-                <div class="menu"><a href="#g0" data-toggle="collapse">Psilo Burger <span class="badge">9,00 €</span></a></div>
-                <div id="g0" class="collapse">
-                    <div class="col-md-8">
-                        <img class="img-responsive img-rounded" src="img/burger.jpg" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <p>Eos an simul oratio maluisset, vix singulis pericula necessitatibus ut. Blandit dignissim et ius. Eum at quando menandri neglegentur. Mel dictas convenire sapientem ne, cu tantas timeam has, suavitate accommodare eam at.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="menu"><a href="#g1" data-toggle="collapse">Tchernobyl Special <span class="badge">17,00 €</span></a></div>
-                <div id="g1" class="collapse">
-                    <div class="col-md-8">
-                        <img class="img-responsive img-rounded" src="img/shit.jpg" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <p>Eos an simul oratio maluisset, vix singulis pericula necessitatibus ut. Blandit dignissim et ius. Eum at quando menandri neglegentur. Mel dictas convenire sapientem ne, cu tantas timeam has, suavitate accommodare eam at.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="menu"><a href="#g3" data-toggle="collapse">Planta Schtroumpf <span class="badge">21,00 €</span></a></div>
-                <div id="g3" class="collapse">
-                    <div class="col-md-8">
-                        <img class="img-responsive img-rounded" src="img/butter.jpg" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <p>Eos an simul oratio maluisset, vix singulis pericula necessitatibus ut. Blandit dignissim et ius. Eum at quando menandri neglegentur. Mel dictas convenire sapientem ne, cu tantas timeam has, suavitate accommodare eam at.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="menu"><a href="#g2" data-toggle="collapse">Fresh Brain <span class="badge">33,00 €</span></a></div>
-                <div id="g2" class="collapse">
-                    <div class="col-md-8">
-                        <img class="img-responsive img-rounded" src="img/freshbrain.jpg" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <p>Eos an simul oratio maluisset, vix singulis pericula necessitatibus ut. Blandit dignissim et ius. Eum at quando menandri neglegentur. Mel dictas convenire sapientem ne, cu tantas timeam has, suavitate accommodare eam at.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="menu"><a href="#g4" data-toggle="collapse">Pro-Life Special <span class="badge">55,00 €</span></a></div>
-                <div id="g4" class="collapse">
-                    <div class="col-md-8">
-                        <img class="img-responsive img-rounded" src="img/abort.jpg" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <p>Eos an simul oratio maluisset, vix singulis pericula necessitatibus ut. Blandit dignissim et ius. Eum at quando menandri neglegentur. Mel dictas convenire sapientem ne, cu tantas timeam has, suavitate accommodare eam at.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="menu"><a href="#g5" data-toggle="collapse">Le Mes Boules Mickey <span class="badge">336,12 €</span></a></div>
-                <div id="g5" class="collapse">
-                    <div class="col-md-8">
-                        <img class="img-responsive img-rounded" src="img/mickey.jpg" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <p>Eos an simul oratio maluisset, vix singulis pericula necessitatibus ut. Blandit dignissim et ius. Eum at quando menandri neglegentur. Mel dictas convenire sapientem ne, cu tantas timeam has, suavitate accommodare eam at.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
             <img class="img-responsive img-rounded" src="img/moss.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+            <div class="panel-group" id="accordion">
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g0" data-toggle="collapse" data-parent="#accordion">Psilo Burger <span class="badge">9,00 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g0" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/burger.jpg" alt=""></div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g1" data-toggle="collapse" data-parent="#accordion">Tchernobyl Special <span class="badge">17,00 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g1" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/shit.jpg" alt=""></div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g2" data-toggle="collapse" data-parent="#accordion">Planta Schtroumpf <span class="badge">21,00 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g2" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/butter.jpg" alt=""></div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g3" data-toggle="collapse" data-parent="#accordion">Fresh Brain <span class="badge">33,00 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g3" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/freshbrain.jpg" alt=""></div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g4" data-toggle="collapse" data-parent="#accordion">Pro-Life Special <span class="badge">55,00 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g4" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/abort.jpg" alt=""></div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g5" data-toggle="collapse" data-parent="#accordion">Le Mes Boules Mickey <span class="badge">336,12 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g5" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/mickey.jpg" alt=""></div>
+                  </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
