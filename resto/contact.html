@@ -18,23 +18,22 @@
                  $(".trucodsu").hide();
              }
 
-// Form
-$('#characterLeft').text('il reste 140 chars');
-$('#message').keydown(function () {
-    var max = 140;
-    var len = $(this).val().length;
-    if (len >= max) {
-        $('#characterLeft').text('Vous avez atteint la limite');
-        $('#characterLeft').addClass('red');
-        $('#btnSubmit').addClass('disabled');
-    }
-    else {
-        var ch = max - len;
-        $('#characterLeft').text('il reste' + ch + ' chars');
-        $('#btnSubmit').removeClass('disabled');
-        $('#characterLeft').removeClass('red');
-    }
-});
+            // Form
+            $('#characterLeft').text('il reste 140 chars');
+            $('#message').keydown(function () {
+                var max = 140;
+                var len = $(this).val().length;
+                if (len >= max) {
+                    $('#characterLeft').text('Vous avez atteint la limite');
+                    $('#characterLeft').addClass('red');
+                    $('#btnSubmit').addClass('disabled');
+                } else {
+                    var ch = max - len;
+                    $('#characterLeft').text('il reste' + ch + ' chars');
+                    $('#btnSubmit').removeClass('disabled');
+                    $('#characterLeft').removeClass('red');
+                }
+            });
 
          });
     </script>
